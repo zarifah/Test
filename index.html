@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	function pageLoad()
+	{
+		document.addEventListener("deviceready",siapsedia,false);
+		
+		document.addEventListener("resume",function(){
+			document.getElementById("")
+		},false);
+	}
+	
+	function siapsedia()
+	{
+		//notificationLikeWhassap
+		navigator.notification.alert("App is ready", mulaKerja, "This is the new test app","Sudah! Jom jalan");
+	}
+	
+	function mulakerja()
+	{
+		document.getElementById("msg").inner.HTML ="Kerja boleh dimulakan";
+	}
+</script>
+</head>
+<body onload="pageLoaded()">
+	<img src="princessess.gif" height="150" />
+	<h1>Welcome to PhoneGap</h1>
+	This is my first mobile app using PhoneGap
+	<p id="msg"></p>
+	
+	<div>
+	Navigation:
+	<ul>
+		<li><a href="accel.html">Accelerometer</a></li>
+		<li><a href="camera.html">Camera</a></li>
+	</ul>
+	</div>
+</body>
+</html>

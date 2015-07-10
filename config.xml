@@ -1,0 +1,22 @@
+ <?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "10" 
+        version     = "1.0.0" >
+		
+		 <name>The new test app</name>
+        <description>
+            Learning phoneaGap can be fun.
+        </description>
+        <author email="nonix18_29@yahoo.com" href="http://phonegap.com">
+            Zarifah
+        </author>
+        <content src="index.html" />
+        <access origin="*" />
+
+			<icon src="images/icon.png" />
+			<gap.splash src="princassess.gif" />
+
+</widget>
+      
